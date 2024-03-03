@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html{
+    color: #2e375d;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header .logo{
+    margin-right: auto;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+.baner{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav-links{
+    list-style: none;
+}   
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 20px;
+    
+    
+}
+.header .nav-links a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: flex-end;
+}
+.boton{
+    background-color: #6B5CFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2px;
+    font-size: 17px;
+
+}
+
+.boton:hover{
+    background-color:  #d7bde2 ;
+}
+select{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    background: none;
+    border-style: none;
+}
+.main h1{
+    font-size: 59px;
+    color: #2e375d;
+    margin-top: 100px ;
+   line-height: 3.5rem;
+}
+.main p{
+    font-size: 18px;
+    color:#a4a2a9;
+    margin-right: 100px;
+    
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 40px;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+
+}
+.h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 15px;
+}
+.comunity{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    margin: 0 50%;
+    
+    padding-top: 50px;
+    justify-content: center;
+   
+
+    
+}
+
+.container img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.container h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color:#2e375d ;
+}
+    
+
+.card1 p{
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 0.9rem;
+    color:#a4a2a9;
+    margin: 10px;
+}
+.card2 p{
+    text-align: center;
+    margin-bottom: 10px;
+    color:#a4a2a9;
+    margin: 10px;
+}
+.card3 p{
+    text-align: center;
+    margin-bottom: 10px;
+    color:#a4a2a9;
+    margin: 10px;
+}
+
+.card1 .boton1{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0 90px;
+    font-size: 17px;
+    border: 1px solid;
+}
+
+.boton1:hover{
+    background-color:  #7757d4 ;
+}
+.boton2{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0 90px;
+    font-size: 17px;
+    border: 1px solid;
+   
+}
+.boton2:hover{
+    background-color:  #7757d4 ;
+}
+.card3 a{
+    border-radius: 10px;
+    margin: 0 90px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #edeff5 ;
+    margin-top: 100px;
+}
+.gif{
+    position: relative;
+    left: 50px; 
+}
